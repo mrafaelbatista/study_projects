@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="cursos">
+      <item>Curso Android básico</item>
+      <item>Curso Java básico</item>
+      <item>Curso C# básico</item>
+      <item>Curso VB.NET básico</item>
+    </string-array>
+    <!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="amarelo">#FFFF00</color>
+    <color name="azul">#0000FF</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="cinza">#CCCCCC</color>
+    <color name="laranja">#FF9900</color>
+    <color name="preto">#000000</color>
+    <color name="rosa">#FF00CC</color>
+    <color name="verde">#00FF00</color>
+    <color name="vermelho">#FF0000</color>
+    <!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="aluno">Messias Batista</string>
+    <string name="android_basico">Curso de Android Básico</string>
+    <string name="app_name">Exemplo Treinaweb</string>
+    <string name="botao_ok">OK</string>
+    <string name="botao_proximo">Próxima Tela</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="csharp_basico">Curso de C# Básico</string>
+    <string name="curso">Android Básico</string>
+    <string name="ensino">Treinaweb Cursos</string>
+    <string name="imagem">Logo da Imagem</string>
+    <string name="java_basico">Curso de Java Básico</string>
+    <string name="menu_archive">Arquivo</string>
+    <string name="menu_attchment">Adicionar um arquivo</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_more">Mais</string>
+    <string name="menu_save">Salvar</string>
+    <string name="menu_search">Pesquisar</string>
+    <string name="msg">Digite seu nome abaixo</string>
+    <string name="nome">Nome:</string>
+    <string name="ola_mundo">Treinaweb Cursos</string>
+    <string name="resposta">Resposta:</string>
+    <string name="rotulo">Selecione uma opção:</string>
+    <string name="texto_nome"/>
+    <string name="titulo">Informações do curso</string>
+    <!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

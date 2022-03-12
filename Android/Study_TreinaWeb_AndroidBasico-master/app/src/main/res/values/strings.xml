@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Exemplo Treinaweb</string>
+    <string name="ola_mundo">Treinaweb Cursos</string>
+    <string name="aluno">Messias Batista</string>
+    <string name="curso">Android Básico</string>
+    <string name="msg">Digite seu nome abaixo</string>
+    <string name="texto_nome"></string>
+    <string name="botao_proximo">Próxima Tela</string>
+    <string name="botao_ok">OK</string>
+    <string name="resposta">Resposta:</string>
+    <string name="ensino">Treinaweb Cursos</string>
+    <string name="titulo">Informações do curso</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="nome">Nome:</string>
+    <string name="imagem">Logo da Imagem</string>
+    <string name="rotulo">Selecione uma opção:</string>
+    <string name="android_basico">Curso de Android Básico</string>
+    <string name="java_basico">Curso de Java Básico</string>
+    <string name="csharp_basico">Curso de C# Básico</string>
+    <string-array name="cursos">
+      <item>Curso Android básico</item>
+      <item>Curso Java básico</item>
+      <item>Curso C# básico</item>
+      <item>Curso VB.NET básico</item>
+    </string-array>
+
+
+    <string name="menu_archive">Arquivo</string>
+    <string name="menu_attchment">Adicionar um arquivo</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_more">Mais</string>
+    <string name="menu_save">Salvar</string>
+    <string name="menu_search">Pesquisar</string>
+
+ 
+
+</resources>

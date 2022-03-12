@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewRotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/rotulo" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAndroidBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewRotulo"
+        android:text="@string/android_basico" />
+
+    <CheckBox
+        android:id="@+id/checkBoxJavaBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBoxAndroidBasico"
+        android:text="@string/java_basico" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCSharpBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBoxJavaBasico"
+        android:text="@string/csharp_basico" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBoxCSharpBasico"
+        android:text="@string/botao_ok" />
+
+    <TextView
+        android:id="@+id/textViewResposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonOk"
+        android:layout_marginTop="23dp"
+        android:text="@string/resposta" />
+
+</RelativeLayout><!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/layout/activity_tela4.xml -->

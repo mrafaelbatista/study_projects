@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela1"
+    android:background="@color/preto"
+    android:id="@+id/tela1">
+
+    <TextView
+        android:id="@+id/textViewMensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/msg"
+        android:textColor="@color/vermelho" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewMensagem"
+        android:layout_below="@+id/textViewMensagem"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/texto_nome"
+        android:textColor="@color/vermelho" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextNome"
+        android:layout_below="@+id/editTextNome"
+        android:layout_marginTop="18dp"
+        android:text="@string/botao_ok"
+        android:textColor="@color/vermelho" />
+
+    <TextView
+        android:id="@+id/textViewResposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonProximo"
+        android:layout_below="@+id/buttonProximo"
+        android:layout_marginTop="20dp"
+        android:text="@string/resposta"
+        android:textColor="@color/vermelho" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/editTextNome"
+        android:layout_toEndOf="@+id/editTextNome"
+        android:id="@+id/frameLayout"></FrameLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/layout/activity_tela1.xml -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TextView
+        android:id="@+id/textViewRotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/rotulo" />
+
+    <RadioGroup android:id="@+id/rdGroupCursos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewRotulo">
+    <RadioButton
+        android:id="@+id/radioButtonAndroidBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_basico" />
+
+    <RadioButton
+        android:id="@+id/radioButtonJavaBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java_basico" />
+
+    <RadioButton
+        android:id="@+id/radioButtonCSharpBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/csharp_basico" />
+  </RadioGroup>
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rdGroupCursos"
+        android:text="@string/botao_ok" />
+
+    <TextView
+        android:id="@+id/textViewResposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonOk"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/resposta" />
+
+</RelativeLayout><!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/layout/activity_tela5.xml -->

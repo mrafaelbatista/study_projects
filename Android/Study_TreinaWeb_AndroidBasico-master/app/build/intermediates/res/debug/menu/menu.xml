@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_archive"
+        android:icon="@drawable/ic_menu_archive"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_archive"></item>
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_menu_edit"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_edit"></item>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_menu_save"
+        android:showAsAction="never"
+        android:title="@string/menu_save"></item>
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_menu_home"
+        android:showAsAction="never"
+        android:title="@string/menu_home"></item>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:showAsAction="never"
+        android:title="@string/menu_delete"></item>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/ic_menu_more"
+        android:showAsAction="never"
+        android:title="@string/menu_more">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_search"
+                    android:icon="@drawable/ic_menu_search"
+                    android:title="@string/menu_search" />
+                <item
+                    android:id="@+id/menu_attachment"
+                    android:icon="@drawable/ic_menu_attachment"
+                    android:title="@string/menu_attchment" />
+            </group>
+        </menu>
+    </item>
+</menu><!-- From: file:/home/messias/Development/Workspace/AndroidStudio/PrimeiroProjeto/app/src/main/res/menu/menu.xml -->

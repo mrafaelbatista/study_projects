@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Smart Life</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="empty"></string>
+
+    <!--Menu superior-->
+    <string name="menu_main2_sair">Sair</string>
+    <string name="menu_dieta1">Dieta 1</string>
+    <string name="menu_dieta2">Dieta 2</string>
+    <string name="menu_dieta3">Dieta 3</string>
+
+    <!--Menu Drawer Layout-->
+    <string name="mdw_Alimentos">Lista de Alimento</string>
+
+    <!--Main Autenticação-->
+    <string name="title_activity_main">Autenticação</string>
+    <string name="loginAut">Dados de login...</string>
+    <string name="senhaAut">Senha...</string>
+    <string name="conectadoAut">Manter conectado.</string>
+    <string name="acessarAut">Acessar</string>
+
+
+    <!--Cadastrar Treino-->
+    <string name="title_activity_cadastrar_treino">Cadastrar Treino</string>
+    <string name="tituloCadTreino">Cadastrar Treino</string>
+    <string name="nometreinoCadTreino">Nome do Treino</string>
+    <string name="objCadTreino">Objetivo do Treino</string>
+    <string name="atividadeCadTreino">Lista de Atividades</string>
+    <string name="semAtividadesCadTreino">Sem atividades.\nPor favor clique em adicionar atividades.</string>
+    <string name="adicionarCadTreino">Adicionar Atividades</string>
+    <string name="salvarCadTreino">Salvar Treino</string>
+
+
+    <!--Cadastrar Atividades-->
+    <string name="title_activity_cadastrar_atividades">CadastrarAtividades</string>
+    <string name="cadAtividades">Selecione as Atividades</string>
+    <string name="salvarAtividades">Salvar Atividades</string>
+
+    <!--Exercícios Abdominais-->
+    <string name="abdomFrontal">Abdominal Frontal</string>
+    <string name="abdomBike">Abdominal Bike</string>
+    <string name="abdomInversao">Abdominal com Inversão</string>
+    <!--Exercícios Bíceps-->
+    <string name="bicepsRoscaConcent">Bíceps Rosca Concentrada</string>
+    <string name="bicepsRoscaDireta">Bíceps Rosca Direta</string>
+    <string name="bicepsRoscaAlternada">Bíceps Rosca Alternada</string>
+
+
+    <!--Lista de Treinos-->
+    <string name="title_activity_lista_treino">Lista de Treinos</string>
+    <string name="titulo_lista_treinos">Treinos não encontrados. Por favor, cadastre um treino.</string>
+    <string name="title_activity_main2">Lista de Treinos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Lista Dieta-->
+    <string name="title_activity_dieta">Dieta Activity</string>
+    <string name="title_lista_dieta">Lista de Dietas</string>
+
+
+</resources>

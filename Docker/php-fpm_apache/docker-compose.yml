@@ -1,0 +1,9 @@
+version: '2'
+services:
+    web:
+        image: mrafaelbatista/php-apache:v0.1
+        ports:
+            - "8080:80"
+        volumes:
+            - "./www:/var/www/html"
+        restart: always

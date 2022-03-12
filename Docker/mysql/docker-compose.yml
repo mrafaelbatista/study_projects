@@ -1,0 +1,27 @@
+# Use root/example as user/password credentials
+# Para maiores informações:
+# https://hub.docker.com/_/mysql/
+# https://hub.docker.com/_/adminer/
+version: '3.1'
+
+services:
+
+    db:
+        image: mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: senha123
+            #Configurar um usuário de uma base de dados
+            # MYSQL_DATABASE:
+            # MYSQL_USER:
+            # MYSQL_PASSWORD:
+        ports:
+            - 6612:3306
+        volumes:
+            - ./data:/var/lib/mysql
+        restart: always
+
+    adminer:
+        image: adminer
+        ports:
+            - 8080:8080
+        restart: always

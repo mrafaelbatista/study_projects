@@ -1,0 +1,39 @@
+# Use postgres/example user/password credentials
+# Para maiores informações:
+# https://hub.docker.com/_/postgres/
+version: '3.1'
+
+volumes:
+    data:
+        external: false
+    log:
+        external: false
+    lib:
+        external: false
+
+services:
+
+    db:
+
+        image: mrafaelbatista/postgres:v0.3
+        environment:
+            PGDATA: /var/lib/postgresql/data/pgdata
+            POSTGRES_PASSWORD: postgres
+            #POSTGRES_USER: user_project
+            #POSTGRES_DB: project_db
+
+        ports:
+            - 5432:5432
+        volumes:
+            - ./data:/database
+            - data:/var/lib/postgresql/data/pgdata
+            - log:/var/log/postgresql
+            - lib:/var/lib/postgresql
+        restart: always
+
+    adminer:
+
+        image: adminer
+        ports:
+            - 8080:8080
+        restart: always

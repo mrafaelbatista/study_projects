@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mn_dieta1"
+        android:title="@string/menu_dieta1"
+        android:onClick="dieta1"
+        />
+    <item
+        android:id="@+id/mn_dieta2"
+        android:title="@string/menu_dieta2"
+        android:onClick="dieta2"
+        />
+    <item
+        android:id="@+id/mn_dieta3"
+        android:title="@string/menu_dieta3"
+        android:onClick="dieta3"
+        />
+    <item
+        android:id="@+id/mn2_sair"
+        android:title="@string/menu_main2_sair" />
+</menu>
